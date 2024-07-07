@@ -12,7 +12,11 @@ pipeline {
                 echo "Hi World"
             }
         }
-        
+        stage ("Hi") {
+            steps{
+                echo "Hi World"
+            }
+        }
 
 
     }
