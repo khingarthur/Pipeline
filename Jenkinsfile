@@ -12,9 +12,9 @@ pipeline {
                 echo "Hi World"
             }
         }
-        stage ("Hi") {
+        stage ("SCript") {
             steps{
-                echo "Hi World"
+                sh "ls"
             }
         }
 
